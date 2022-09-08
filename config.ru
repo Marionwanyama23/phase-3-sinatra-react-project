@@ -1,15 +1,13 @@
-require_relative "./config/environment"
+require_relative "./config/environment.rb"
+# enables cross-origin resource sharing
+# this allows any site (note origins '*') to make any request to our API
 
-# Allow CORS (Cross-Origin Resource Sharing) requests
 use Rack::Cors do
-  allow do
-    origins '*'
-    resource '*', headers: :any, methods: [:get, :post, :delete, :put, :patch, :options, :head]
+    allow do
+      origins '*' # can also put like origins 'http://localhost:3001' and only allow that domain to send a request
+      resource '/*', headers: :any, methods: [:get, :post, :patch, :put, :delete]
+    end
   end
-end
-
-# Parse JSON from the request body into the params hash
-use Rack::JSONBodyParser
-
-# Our application
-run ApplicationController
+  
+  
+  run Application.new
