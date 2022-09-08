@@ -12,19 +12,18 @@
 
 ActiveRecord::Schema.define(version: 2021_08_10_141716) do
 
-    create_table "bands", force: :cascade do |t|
-      t.string "name"
-      t.datetime "created_at", precision: 6, null: false
-      t.datetime "updated_at", precision: 6, null: false
-    end
-  
-    create_table "songs", force: :cascade do |t|
-      t.string "name"
-      t.integer "band_id"
-      t.datetime "created_at", precision: 6, null: false
-      t.datetime "updated_at", precision: 6, null: false
-      t.index ["band_id"], name: "index_songs_on_band_id"
-    end
-  
+  create_table "bands", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
-  
+
+  create_table "songs", force: :cascade do |t|
+    t.string "name"
+    t.integer "band_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["band_id"], name: "index_songs_on_band_id"
+  end
+
+end
