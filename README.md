@@ -15,13 +15,3 @@ How to Acess:
 7. Finally run npm start to run the application.
 
 
-Supplemental guides:
-
-Here is a video explanation of my project: https://www.youtube.com/watch?v=LjlR9f44_00&ab_channel=TaulantHakaj
-
-Here is a blog i wrote about understanding errors in your code: https://taulantfhakaj.medium.com/understanding-error-messages-faebe4e0b391
-
-Resources used:
-1. Medium.com
-2. Youtube.com
-3. Vanilla JS, CSS, React, and Ruby
