@@ -1,8 +1,8 @@
-my-app-frontend
+Fitness app
 
 Fitness app is an app for people who love keeping fit
 
-This is a simple website as well as a simple frontend , that allows the user to create, delete, and see entries from the backend. This file is the backend that contains the user experience desired. This file needs to be run with the backend file to work as designed. You can find the back end here on github:  https://github.com/Marionwanyama23/phase-3-sinatra-react-project.git
+This is a simple website as well as a simple frontend , that allows the user to create, delete, and see entries from the backend. This file is the backend that contains the user experience desired and allows the user to create, delete, and see entries. This file needs to be run with the backend file to work as designed. You can find the back end here on github:  https://github.com/Marionwanyama23/phase-3-sinatra-react-project.git
 
 How to Acess:
 1. Clone this repository to your local enviornment.
