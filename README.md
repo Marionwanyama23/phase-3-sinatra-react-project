@@ -1,4 +1,4 @@
-Fitness app
+Fitness app backend
 
 Fitness app is an app for people who love keeping fit
 
